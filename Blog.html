@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Españya</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary text-bg-dark p-3"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">Españya</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Blog.html">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Explore
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="food.html">Food</a></li>
+                <li><a class="dropdown-item" href="Product.html">Product</a></li>
+                <li>
+                  <a class="dropdown-item" href="Lifestyle.html">Lifestyle</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </head>
+
+  <body class="bg-black text-white">
+    <!-- Blog Header -->
+    <header class="blog-header text-center py-5">
+      <h1 class="blog-main-title">Españya Blog</h1>
+      <div class="title-line mx-auto"></div>
+      <p class="blog-subtitle mt-3">
+        Stories, food spots, student life, and culture along Españya Boulevard
+      </p>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="container pb-5">
+      <!-- Latest Post -->
+      <article class="blog-post latest-post mb-5">
+        <img
+          src="images/crambayan.jpg"
+          alt="Food in España"
+          class="blog-img mb-3"
+        />
+        <span class="badge bg-warning text-dark">Latest • Food</span>
+        <h2 class="blog-title mt-2">
+          Best Student Meals Along Españya Boulevard
+        </h2>
+        <p class="blog-text">
+          From ₱120 street food to hidden cafés, here are the best places
+          students swear by when hunger hits along Españya.
+        </p>
+        <a href="#" class="btn btn-outline-warning">Read More</a>
+      </article>
+
+      <!-- Blog Grid -->
+      <div class="row g-4">
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/student.jpg"
+              alt="Student Life"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Lifestyle</span>
+            <h3 class="blog-title">A Day in the Life of a U-Belt Student</h3>
+            <p class="blog-text">
+              Morning rush, budget meals, late-night reviews — experience the
+              real student lifestyle in the heart of Manila.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/university.jpg"
+              alt="Universities"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Education</span>
+            <h3 class="blog-title">Top Universities Near Españya</h3>
+            <p class="blog-text">
+              Españya Boulevard is surrounded by top universities that shape the
+              future of thousands of students.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img src="images/cafe.jpg" alt="Cafes" class="blog-img mb-3" />
+            <span class="badge bg-warning text-dark">Food</span>
+            <h3 class="blog-title">Best Cafés for Studying & Chill</h3>
+            <p class="blog-text">
+              Wi-Fi, outlets, and strong coffee — these cafés around Españya are
+              perfect for long study sessions.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/history.jpg"
+              alt="History"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Culture</span>
+            <h3 class="blog-title">The History Behind Españya Boulevard</h3>
+            <p class="blog-text">
+              Learn how Españya became one of Manila’s most important cultural
+              and educational hubs.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/night.jpg"
+              alt="Night Life España"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Lifestyle</span>
+            <h3 class="blog-title">
+              Night Life Along Españya: After Class Spots
+            </h3>
+            <p class="blog-text">
+              When classes end, Españya comes alive. Discover food parks, cafés,
+              and chill spots students love after dark.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/dorm.jpg"
+              alt="Dorm Living"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Student Life</span>
+            <h3 class="blog-title">Dorm Life Tips Near Españya Boulevard</h3>
+            <p class="blog-text">
+              From budgeting to roommate rules, here’s how students survive and
+              thrive while living near campus.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/lrt.jpg"
+              alt="Transportation"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Guide</span>
+            <h3 class="blog-title">Getting Around Españya: A Student Guide</h3>
+            <p class="blog-text">
+              Jeepneys, tricycles, LRT, and walking routes — learn the fastest
+              and cheapest ways to commute.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/tips.jpg"
+              alt="Budget Tips"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Tips</span>
+            <h3 class="blog-title">Surviving Españya on a Student Budget</h3>
+            <p class="blog-text">
+              Rent, food, school supplies — here’s how students manage expenses
+              without sacrificing comfort.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img src="images/events.jpg" alt="Events" class="blog-img mb-3" />
+            <span class="badge bg-warning text-dark">Culture</span>
+            <h3 class="blog-title">Events and Festivals Near Españya</h3>
+            <p class="blog-text">
+              From university fairs to street events, Españya is full of
+              activities worth checking out.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="blog-post">
+            <img
+              src="images/hidden.jpg"
+              alt="Hidden Spots"
+              class="blog-img mb-3"
+            />
+            <span class="badge bg-warning text-dark">Explore</span>
+            <h3 class="blog-title">Hidden Gems Only Españya Locals Know</h3>
+            <p class="blog-text">
+              Quiet cafés, underrated eateries, and secret study spots you won’t
+              find on Google Maps.
+            </p>
+            <a href="#" class="btn btn-outline-warning">Read More</a>
+          </article>
+        </div>
+
+        <!-- Pagination -->
+<nav aria-label="Blog pagination" class="mt-5">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1">Previous</a>
+    </li>
+    <li class="page-item active"><a class="page-link" href="">1</a></li>
+    <li class="page-item"><a class="page-link" href="">2</a></li>
+    <li class="page-item"><a class="page-link" href="">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="">Next</a>
+    </li>
+  </ul>
+</nav>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+      <div
+        class="container d-flex flex-wrap justify-content-between align-items-center"
+      >
+        <!-- Logo (Left) -->
+        <a
+          href="Index.html"
+          aria-label="Españya Home"
+          class="d-flex align-items-center mb-2 mb-md-0"
+        >
+          <img src="images/logo.png" alt="Españya Logo" style="height: 40px" />
+        </a>
+
+        <!-- Center: Creator Text + Copyright -->
+        <div class="text-center flex-fill mb-2 mb-md-0">
+          <p class="mb-0 fw-bold">Created by Aleson Depano</p>
+          <p class="mb-0">&copy; 2026 Españya. All rights reserved.</p>
+        </div>
+
+        <!-- Social & Contact Icons (Right) -->
+        <div class="d-flex align-items-center mb-2 mb-md-0">
+          <a
+            href="mailto:alesondepano@gmail.com"
+            class="text-white fs-5 mx-2"
+            aria-label="Send Email"
+          >
+            <i class="bi bi-envelope-fill"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/aleson.depano.31"
+            target="_blank"
+            rel="noopener"
+            class="text-white fs-5 mx-2"
+            aria-label="Facebook"
+          >
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/alesondepano/"
+            target="_blank"
+            rel="noopener"
+            class="text-white fs-5 mx-2"
+            aria-label="Instagram"
+          >
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a
+            href="https://github.com/alesondepano"
+            target="_blank"
+            rel="noopener"
+            class="text-white fs-5 mx-2"
+            aria-label="GitHub"
+          >
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

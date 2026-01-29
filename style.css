@@ -1,0 +1,882 @@
+/* =========================
+   Navbar
+========================= */
+.navbar-brand {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: gold;
+}
+
+/* =========================
+   Carousel
+========================= */
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-caption-all {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem 2rem;
+  max-width: 90%;
+}
+
+.place {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #FFD700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+.hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin-bottom: 0.8rem;
+  text-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+}
+
+.title1 { color: #FFD700; font-size: 5rem; font-weight: 900; }
+.title2 { color: #fff; font-size: 4.5rem; font-weight: 800; }
+
+.hero-subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #ddd;
+  margin-top: 0;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+}
+
+/* =========================
+   Section Titles
+========================= */
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #FFD700;
+  margin: 10px auto 0 auto;
+  border-radius: 2px;
+}
+
+/* =========================
+   About Section
+========================= */
+#about {
+  background-color: #000;
+  padding: 5rem 0;
+}
+
+#about .about-header h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  position: relative;
+  display: inline-block;
+}
+
+#about .about-header h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background-color: #FFD700;
+  margin-top: 6px;
+  border-radius: 2px;
+}
+
+#about .about-header p {
+  color: #FFD700;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+#about p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #ccc;
+  text-align: justify;
+}
+
+/* =========================
+   About Image
+========================= */
+.about-img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.03);
+}
+
+/* =========================
+   Top Universities Carousel
+========================= */
+#universities .carousel-inner img {
+  height: 400px; /* slightly smaller for responsiveness */
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carousel-caption-all {
+  max-width: 85%;
+  padding: 1rem;
+}
+
+#universities h1.hero-title {
+  font-size: 2rem;
+}
+
+#universities .hero-subtitle {
+  font-size: 1rem;
+}
+
+#universities h5.place {
+  font-size: 1rem;
+}
+
+/* =========================
+   Explore Section Cards
+========================= */
+#explore .card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+#explore .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(255, 215, 0, 0.4);
+}
+
+#explore .card-title {
+  font-weight: 600;
+  color: #FFD700;
+}
+
+#explore .card-text {
+  color: #ccc;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#explore .btn {
+  font-weight: 600;
+}
+
+/* =========================
+   Contact Section
+========================= */
+#contact {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+#contact .form-control {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+#contact .form-control:focus {
+  border-color: #FFD700;
+  box-shadow: 0 0 0 0.2rem rgba(255,215,0,0.25);
+}
+
+/* Responsive Map */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+  background-color: #000;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+footer a {
+  transition: transform 0.2s, color 0.2s;
+}
+
+footer a:hover {
+  color: #FFD700;
+  transform: scale(1.2);
+}
+
+/* =========================
+  
+
+/* =========================
+   BLOG THEME
+========================= */
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Header */
+.blog-main-title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.title-line {
+  width: 90px;
+  height: 4px;
+  background-color: #ffc107;
+  margin-top: 12px;
+}
+
+.blog-subtitle {
+  color: #bbb;
+  font-size: 1.1rem;
+}
+
+/* Blog Posts */
+.blog-post {
+  background-color: #111;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.blog-img {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.latest-post .blog-img {
+  height: 440px;
+}
+
+.blog-title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.latest-post .blog-title {
+  font-size: 2.2rem;
+}
+
+.blog-text {
+  font-size: 1.15rem;
+  color: #ccc;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn-outline-warning {
+  border-width: 2px;
+  font-weight: 600;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .blog-main-title {
+    font-size: 2.2rem;
+  }
+
+  .blog-img {
+    height: 260px;
+  }
+
+  .latest-post .blog-img {
+    height: 300px;
+  }
+
+  .blog-title {
+    font-size: 1.5rem;
+  }
+
+  .blog-text {
+    font-size: 1rem;
+  }
+}
+
+.pagination .page-link {
+  color: #FFD700;
+  background-color: #000;
+  border: 1px solid #444;
+  transition: all 0.3s;
+}
+
+.pagination .page-link:hover {
+  background-color: #FFD700;
+  color: #000;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #FFD700;
+  color: #000;
+  border-color: #FFD700;
+}
+ 
+
+
+/* =========================
+   Base
+========================= */
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+/* =========================
+   Navbar
+========================= */
+.navbar-brand {
+  color: gold;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* =========================
+   Section Spacing
+========================= */
+section {
+  margin-top: 80px;
+}
+
+/* =========================
+   Card
+========================= */
+.card {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 12px;
+  margin-top: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(255, 215, 0, 0.4);
+}
+
+/* =========================
+   Card Image
+========================= */
+.card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* =========================
+   Card Text
+========================= */
+.card-title {
+  color: #FFD700;  /* gold product title */
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.card-text {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.food-info {
+  font-size: 0.95rem;
+  color: #ddd;
+  margin-top: 0.5rem;
+}
+
+.food-info i {
+  color: gold;
+}
+
+/* =========================
+   Product Buttons
+========================= */
+.card .btn-primary {
+  background-color: #FFD700;  /* gold */
+  border-color: #FFD700;      /* gold border */
+  color: #000;                /* black text */
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card .btn-primary:hover {
+  background-color: #e6c200;  /* darker gold on hover */
+  border-color: #e6c200;
+  color: #000;
+}
+
+/* =========================
+   Pagination
+========================= */
+.page-link {
+  color: #FFD700;
+  background-color: #000;
+  border: 1px solid #444;
+}
+
+.page-link:hover {
+  background-color: #FFD700;
+  color: #000;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #FFD700;
+  color: #000;
+  border-color: #FFD700;
+}
+
+/* =========================
+   Section Title
+========================= */
+h1.section-title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* =========================
+   Tiny gold line under titles
+========================= */
+.gold-line {
+  width: 40px;               /* short line under title */
+  height: 3px;
+  background-color: #FFD700; /* gold color */
+  margin: 4px 0 12px 0;
+  border-radius: 2px;
+}
+
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 992px) {
+  section {
+    margin-top: 60px;
+  }
+
+  .navbar-brand {
+    font-size: 22px;
+  }
+
+  .card-img-top {
+    height: 220px;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  h1.section-title {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  section {
+    margin-top: 40px;
+  }
+
+  .navbar-brand {
+    font-size: 20px;
+  }
+
+  .card {
+    margin-top: 16px;
+  }
+
+  .card-img-top {
+    height: 180px;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+
+  h1.section-title {
+    font-size: 1.8rem;
+  }
+
+  .gold-line {
+    width: 50px; /* slightly wider on small screens for balance */
+  }
+}
+
+
+/* =========================
+   España Story Section
+========================= */
+.espanya-story-section {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 0;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.section-header {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.gold-line {
+  width: 50px;
+  height: 3px;
+  background-color: #FFD700;
+  margin: 4px auto 20px auto;
+  border-radius: 2px;
+}
+
+/* Image Gallery Alignment */
+.story-gallery {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Story Images */
+.story-image {
+  width: 100%;
+  max-width: 420px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(255, 215, 0, 0.3);
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.story-image:hover {
+  transform: scale(1.04);
+  box-shadow: 0 15px 35px rgba(255, 215, 0, 0.5);
+}
+
+/* Text Wrapper Alignment */
+.story-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.story-text {
+  color: #ccc;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.gold-highlight {
+  color: #FFD700;
+  font-weight: 600;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #FFD700;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e6c200;
+  color: #000;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .section-header {
+    font-size: 2rem;
+  }
+
+  .story-text {
+    font-size: 0.95rem;
+  }
+
+  .story-image {
+    height: 220px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .espanya-story-section {
+    padding: 40px 15px;
+  }
+
+  .section-header {
+    font-size: 1.8rem;
+  }
+
+  .story-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .gold-line {
+    width: 40px;
+  }
+
+  .story-image {
+    height: 180px;
+    border-radius: 10px;
+  }
+}
+
+
+/* About Section */
+.about-section {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Section Header */
+.about-section .section-header {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Gold line under header */
+.about-section .gold-line {
+  width: 60px;
+  height: 4px;
+  background-color: #FFD700;
+  margin: 8px 0 20px 0;
+  border-radius: 2px;
+}
+
+/* About Text */
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #ccc;
+  text-align: justify;
+}
+
+/* Gold Highlight */
+.gold-highlight {
+  color: #FFD700;
+  font-weight: 600;
+}
+
+/* Photo */
+.about-photo {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 15px 35px rgba(255, 215, 0, 0.4);
+}
+
+/* Cards Dark Style */
+.card-dark {
+  background-color: #1a1a1a;
+  color: #fff;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid #333;
+}
+
+.card-dark:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(255, 215, 0, 0.5);
+}
+
+/* Card Title Highlight */
+.card-dark .card-title {
+  color: #FFD700;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Collaboration Section */
+.collab-section {
+  background-color: #1a1a1a;
+}
+
+.btn-gold {
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  padding: 12px 28px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #e6c200;
+  color: #000;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .about-section .section-header {
+    font-size: 2.2rem;
+  }
+
+  .about-photo {
+    max-width: 300px;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-section .section-header {
+    font-size: 1.8rem;
+  }
+
+  .about-photo {
+    max-width: 220px;
+  }
+
+  .about-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .card-dark {
+    font-size: 0.95rem;
+    padding: 20px 15px;
+  }
+
+  .btn-gold {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+
+
+/* Contact Section */
+#contact {
+  font-family: 'Arial', sans-serif;
+}
+
+#contact .section-title {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#contact .form-control {
+  background-color: #1a1a1a;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+
+#contact .form-control::placeholder {
+  color: #bbb;
+}
+
+#contact .btn-warning {
+  background-color: #FFD700;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#contact .btn-warning:hover {
+  background-color: #e6c200;
+  color: #000;
+}
+
+.map-responsive {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  #contact .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  #contact .section-title {
+    font-size: 1.8rem;
+  }
+
+  #contact .form-control {
+    font-size: 0.9rem;
+  }
+
+  #contact .contact-info, 
+  #contact .contact-form {
+    padding: 15px;
+  }
+}
+
+
+
+
+
+
